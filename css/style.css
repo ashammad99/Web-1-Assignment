@@ -1,0 +1,188 @@
+/*Start of General Style*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+	
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+ul {
+    list-style: none
+}
+
+.clearfix {
+    clear: both
+}
+
+
+a {
+    color: #9d9d9d;
+    text-decoration: none
+}
+
+.container {
+    width: 1000px;
+	margin: auto;
+}
+
+button {
+    cursor: pointer
+}
+
+/* end general style */
+
+/* Start Navigation Style */
+.navbar {
+	background: #222;
+	width: 100%;
+	padding: 20px 0;
+	margin: 0;
+	
+}
+.navbar ul {
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+.navbar ul li a {
+	padding: 20px 12px;
+	
+}
+.navbar ul li a:hover {
+	
+	background: #080808;
+	color: white;
+}
+
+.floatRight {
+	float: right;
+}
+
+/* End Navigation Style */
+
+/* Start  Main Section Style*/
+.mainSection {
+	margin-top: 35px;
+}
+.mainSection p {
+	color: #333;
+	font-size: 30px;
+	font-weight: 5px;
+}
+.mainSection span {
+	color: #8093a3;
+	font-size: 21px;
+}
+.mainSection hr {
+	background: #eee;
+	margin: 15px 0 15px 0;
+}
+.mainSection .card {
+	width: 48%;
+	display: inline-block;
+	
+	
+}
+.mainSection .card img {
+	width: 100%;
+	background-size: cover;
+	width: 480;
+	height: 310;
+	
+}
+.mainSection .card .card-body {
+	margin-bottom: 20px;
+}
+.mainSection .card .card-body h3 ,.mainSection .card .card-body p {
+	color: #337ac7;
+	margin: 0;
+	margin-top: 15px;
+	font-weight: 500;
+}
+.mainSection .card .card-body p {
+	color: #33338f;
+	font-size: 14px;
+}
+.even {
+	position: relative ; 
+	margin-left: 36px;
+}
+/* End Main Section Style*/
+
+/* Start last Section Style*/
+.lastSection {
+	background: #87cefa;
+	padding: 70px;
+	margin-top: 20px;
+}
+.information {
+	display: flex;
+}
+.info {
+	padding: 5px;
+}
+.info img {
+	border-radius: 50%;
+	margin-bottom: 10px;
+	margin-left: 120px;
+}
+.info h3 {
+	color: #191986;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.info p {
+	font-family: sans-serif;
+	word-spacing: 1px;
+	color: #333333;
+	text-align: center;
+	font-size: 12px;
+	margin-bottom: 10px;
+	justify-content: center;
+	
+}
+.info button {
+	padding: 10px 20px;
+    background: #337ab7;
+	color: white;
+    border: 1px solid #2e6da4;
+    border-radius: 5px;
+	outline: none;
+	margin-left: 120px;
+}
+/* End last Section Style*/
+
+
+/* Start of footer style*/
+footer {
+	padding: 40px;
+}
+footer p {
+	text-align: center;
+}
+/* End of footer style*/
+
+
+/*Responsive*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
